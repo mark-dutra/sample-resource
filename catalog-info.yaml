@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sample-resource
+  title: SampleR
+  description: This is a sandbox resource to learn about catalog entries
+  tags: 
+    - java
+    - sso
+    - client
+  iconUrl: https://github.com/jmconelogin/jmconelogin/blob/main/custom_logo.png?raw=true
+  annotations:
+    github.com/project-slug: mark-dutra/sample-resource
+spec:
+  type: service
+  lifecycle: experimental
+  owner: devsecops
+  system: java
